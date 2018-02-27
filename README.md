@@ -21,3 +21,7 @@
 -  X Update the Sytles for forms 
 ## Refactor TODOS:
 - Refactor user association integration test in post_spec
+
+## Refactor todos:
+- Refactor posts/_form for admin user with status
+- Refactor user association integration test in post_spec
