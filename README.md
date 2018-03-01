@@ -25,3 +25,4 @@
 ## Refactor todos:
 - Refactor posts/_form for admin user with status
 - Refactor user association integration test in post_spec
+-fix post.spec.rb to use factories
