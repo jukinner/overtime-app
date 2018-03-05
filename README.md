@@ -23,6 +23,10 @@
 ## Refactor TODOS:
 
 
-## Refactor todos:
-- Refactor posts/_form for admin user with status
+## todos:
+- Integrate validation for phone attr in User:
+  # No spaces or dashes
+  # exactly 10 characters
+  # all characters must be a number despite it being a string
+
 
