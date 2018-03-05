@@ -16,17 +16,8 @@
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-- x Bootstrap -> formatting
-- X Icons from Front Awesome
-- X Update the Sytles for forms 
-## Refactor TODOS:
-
 
 ## todos:
-- Integrate validation for phone attr in User:
-  # No spaces or dashes
-  # exactly 10 characters
-  # all characters must be a number despite it being a string
+
 
 
