@@ -11,7 +11,8 @@ AdminUser.create(email: "admin@test.com",
                 password: "asdfasdf", 
                 password_confirmation: "asdfasdf", 
                 first_name: "Admin", 
-                last_name: "Name")
+                last_name: "Name",
+                phone: "8569066798") 
 
 puts "1 Admin User created"
 
