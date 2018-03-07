@@ -1,11 +1,9 @@
+
 require 'rails_helper'
 
-describe 'AuditLog Feature' dp 
-  # let(:audit_log) { FactoryBot.create(:audit_log) }
-
-  describe 'index' do  
+describe 'AuditLog Feature' do
+  describe 'index' do
     before do
-      FactoryBot.create(:audit_log)
       admin_user = FactoryBot.create(:admin_user)
       login_as(admin_user, :scope => :user)
     end
@@ -16,6 +14,7 @@ describe 'AuditLog Feature' dp
     end
 
     it 'renders audit log content' do
+      FactoryBot.create(:audit_log)
       visit audit_logs_path
       expect(page).to have_content(/SNOW/)
     end
