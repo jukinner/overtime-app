@@ -17,7 +17,7 @@
 - x Needs to be documented if employee did not log overtime
 - x create audit log for each text message
 - x need to update end_date when confirmed
-- need to update audit log when OT is rejected. 
+- x need to update audit log when OT is rejected. 
 - update buttons on employee homepage to wrap onto 2 rows to show on mmbile
 - update buttons to include timespan for the week. 
 - update button sort order on employe homepage
