@@ -1,6 +1,14 @@
 namespace :notification do
   desc "Sends SMS notification to employees asking them to log if they OT or not."
   task sms: :environment do
+    if Time.now.sunday?
+      employees = Employee.all
+      notification_message = "Please log into the OT management dashboard to log to request OT or confirm your hours for last week: https://jkinner-overtime.herokuapp.com/"
+      employees.each do |employee| 
+        SmsTool.send_sms(number: employee.phone, message: notification_message)
+      end
+    end
+  end
     # 1. Scheduled to run ever Sunday at 5pm (utilizes Heroku)
     # 2. Iterate over all  employees 
     # 3. Skip AdminUsers
@@ -13,7 +21,6 @@ namespace :notification do
   #No spaces or dashes
   # exactly 10 characters
   # all characters must be a number despite it being a string
-  end
 
   desc "Sends mail notification to managers (admin users) each day to inform of pending OT requests"
   task manager_email: :environment do
