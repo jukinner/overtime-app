@@ -10,11 +10,21 @@
 
 ## Features:
 - x Approval Workflow
-- SMS Sending -> link to approval or overtime input - Integrate with Herok scheduler
+- x SMS Sending -> link to approval or overtime input - Integrate with Heroku scheduler
 - X Administrate admin dashboard
 - X Block non admin and guest users
-- Email summary to managers for approval
+- x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
+- x create audit log for each text message
+- need to update end_date when confirmed
+- need to update audit log when OT is rejected. 
+- update buttons on employee homepage to wrap onto 2 rows to show on mmbile
+- update buttons to include timespan for the week. 
+- update button sort order on employe homepage
+- remove unnecessaary nav bar buttons for managers
+- fix admin dashboard bug
+- implement honeybadger for error reporting 
+- implement new relic for keeping site alive
 
 
 ## todos:
