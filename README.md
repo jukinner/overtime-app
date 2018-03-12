@@ -21,7 +21,7 @@
 - x update buttons on employee homepage to wrap onto 2 rows to show on mmbile
 - x update buttons to include timespan for the week. 
 - x update button sort order on employe homepage
-- remove unnecessaary nav bar buttons for managers
+- x remove unnecessaary nav bar buttons for managers
 - fix admin dashboard bug
 - implement honeybadger for error reporting 
 - implement new relic for keeping site alive
