@@ -22,10 +22,10 @@
 - x update buttons to include timespan for the week. 
 - x update button sort order on employe homepage
 - x remove unnecessaary nav bar buttons for managers
-- fix admin dashboard bug
-- implement honeybadger for error reporting 
-- implement new relic for keeping site alive
-- check on data issue and verify correct hours are being tracked
+- x fix admin dashboard bug
+- x implement honeybadger for error reporting 
+- x implement new relic for keeping site alive
+- xcheck on data issue and verify correct hours are being tracked
 
 
 ## todos:
